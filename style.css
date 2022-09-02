@@ -12,8 +12,13 @@ p:first-child {
 button {
   border: none;
   background-color: red;
-  padding: 50px 100px;
-  width: 100%;
+  padding: 50px 50px;
+  width: 50%;
   border-radius: 50px;
+  cursor: pointer;
+  color: #ffffff;
+  font-size: 20px;
+}
+button:hover {
   box-shadow: 18px -20px 2px 1px rgb(0 0 255 / 20%);
 }
